@@ -1,0 +1,49 @@
+{
+    "extends": ["eslint:recommended"],
+
+    "plugins": ["babel"],
+
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node" : true,
+        "mocha": true,
+        "jquery": true
+    },
+
+    "rules": {
+        "array-element-newline": [2, "consistent"],
+        "babel/no-invalid-this": 2,
+        "dot-location": [2, "property"],
+        "func-style": 0,
+        "id-length": 0,
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "max-len": 0,
+        "multiline-ternary": [2, "always-multiline"],
+        "no-confusing-arrow": [2, { "allowParens": true }],
+        "no-extra-parens": [2, "all", { "enforceForArrowConditionals": false }],
+        "no-invalid-this": 0,
+        "no-magic-numbers": 0,
+        "no-mixed-operators": 0,
+        "no-ternary": 0,
+        "no-underscore-dangle": 0,
+        "object-curly-spacing": [2, "always"],
+        "one-var": 0,
+        "padded-blocks": [2, "never"],
+        "prefer-destructuring": [2, { "object": false, "array": true }],
+        "prefer-object-spread": 0,
+        "quotes": [2, "single"],
+        "require-jsdoc": 0,
+        "sort-vars": 0,
+        "space-before-function-paren": [2, "never"],
+        "template-curly-spacing": [2, "always"]
+    }
+}

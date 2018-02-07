@@ -1,0 +1,20 @@
+{
+    "author": "Flo",
+    "dependencies": {
+        "mime-types": "^2.1.24",
+        "socket.io": "^2.3.0"
+    },
+    "description": "",
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.5.1",
+        "eslint-plugin-babel": "^5.3.0"
+    },
+    "license": "ISC",
+    "main": "server.js",
+    "name": "chat",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "1.0.0"
+}
